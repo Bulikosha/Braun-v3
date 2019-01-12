@@ -1,0 +1,159 @@
+.head-wrapper {
+	background-color: #231f20;
+	color: #f5e2dc;
+}
+
+.head-wrapper .address-link,
+.head-wrapper .phone-link {
+	display: none;
+}
+
+.head-wrapper .header-item.logo {
+	padding: 18px 0 28px;
+	text-align: center;
+}
+
+.head-wrapper header {
+	border-bottom: 3px solid #cc8466;
+}
+
+.head-wrapper .desktop-menu {
+	display: none;
+}
+
+.head-wrapper .mobile-menu {
+	background-color: #cc8466;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.head-wrapper .mobile-menu ul {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.head-wrapper .mobile-menu ul li.active {
+	color: #231f20;
+}
+.head-wrapper .mobile-menu ul li {
+	margin-bottom: 28px;
+	list-style-type: none;
+}
+
+.head-wrapper .mobile-menu .close-menu,
+.head-wrapper .menu .mobile-burger {
+	border: 2px solid #231f20;
+	border-radius: 50%;
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	color: #231f20;
+	text-decoration: none;
+	line-height: 52px;
+	font-family: 'MuseoBold';
+	font-size: 32px;
+	margin: 20px 0;
+	cursor: pointer;
+}
+
+.head-wrapper .menu .mobile-burger {
+	border-color: #e2a687;
+	background-image: url("../img/hamburger_icon.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.head-wrapper .menu {
+	text-align: center;
+	position: relative;
+}
+
+@media (min-width: 576px) {
+	.head-wrapper .mobile-menu {
+		left: 25%;
+		right: 25%;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	header {
+		position: relative;
+	}	
+
+	.head-wrapper .address-link,
+	.head-wrapper .phone-link {
+		position: absolute;
+		display: block;
+		top: 50px;
+		margin-top: 11px;
+	}
+
+	.head-wrapper .address-link a,
+	.head-wrapper .phone-link a {
+		color: #f5e2dc;
+		text-decoration: none;
+	} 
+
+	.head-wrapper .address-link {
+		left: 0;
+	}
+	.head-wrapper .phone-link {
+		right: 0;
+	}
+
+	.head-wrapper .header-ico {
+		display: inline-block;
+		width: 48px;
+		height: 48px;
+		border: 2px solid #d18b6e;
+		border-radius: 50%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		vertical-align: middle;
+	}
+
+	.head-wrapper .map-ico {
+		background-image: url(../img/location.png);
+		margin-right: 12px;
+	}
+	.head-wrapper .phone-ico {
+		background-image: url(../img/phone.png);
+		margin-left: 12px;
+	}
+
+	.head-wrapper .menu .mobile-burger {
+		display: none;
+	}
+
+	.head-wrapper .desktop-menu {
+		display: block;
+	}
+
+	.head-wrapper .desktop-menu ul {
+		display: flex;
+		justify-content: space-between;
+		padding: 25px 0;
+	}
+
+
+	.head-wrapper .desktop-menu ul li {
+		list-style-type: none;
+		display: inline;
+		font-size: 18px;
+		color: #f5e2dc;
+		text-transform: uppercase;		
+	}
+
+}
+
