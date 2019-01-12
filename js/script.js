@@ -8,3 +8,11 @@ function openMenu() {
 function closeMenu() {
 	menuBlock.style.display = 'none';
 }
+
+$(document).ready(function() {
+	$('.slider').slick({
+		prevArrow: $('.arrow-left'),
+		nextArrow: $('.arrow-right'),
+		dots: false,
+	});
+})

@@ -72,7 +72,7 @@
 	background-image: url(../img/parking.png);
 }
 
-.slider-wrapper .slider-controls .arrow {
+.slider-wrapper .arrow {
 	position: absolute;
 	bottom: 40px;
 	font-size: 18px;
@@ -85,15 +85,15 @@
 	width: 50%;
 }
 
-.slider-wrapper .slider-controls .arrow-left {
+.slider-wrapper .arrow-left {
 	left: 0px;
 } 
 
-.slider-wrapper .slider-controls .arrow-right {
+.slider-wrapper .arrow-right {
 	right: 0px;
 } 
 
-.slider-wrapper .slider-controls .arrow:before {
+.slider-wrapper .arrow:before {
 	content: '';
 	display: block;
 	height: 25px;
@@ -103,7 +103,7 @@
 	margin-bottom: 10px;
 }
 
-.slider-wrapper .slider-controls .arrow-right:before {
+.slider-wrapper .arrow-right:before {
 	transform: rotate(180deg);
 }
 
@@ -141,14 +141,14 @@
 		width: 25%;
 	}
 
-	.slider-wrapper .slider-controls .arrow {
+	.slider-wrapper .arrow {
 		bottom: 200px;
 	}
 
 }
 
 @media (min-width: 1200px) {
-	.slider-wrapper .slider-controls .arrow {
+	.slider-wrapper .arrow {
 		bottom: 132px;
 		width: 25%;
 	}
