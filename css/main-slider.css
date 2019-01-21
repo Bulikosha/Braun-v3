@@ -154,3 +154,78 @@
 	}
 
 }
+
+/*Apartment prices block*/
+
+.gallery-wrapper {
+	background-color: #f5e2dc;
+	padding-bottom: 30px;
+}
+
+.text-head {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 6px;
+	
+}
+.text-head span {
+	font-family: "MuseoSansItalic";
+	display: block;
+	text-transform: none;
+	color: #cc8466;
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	letter-spacing: normal;
+}
+
+.gallery-wrapper h3 {
+	margin-top: 0;
+}
+
+.centerline {
+	width: 100px;
+  height: 1px;
+  margin: 15px auto;
+  border-bottom: 3px solid #cc8466;
+
+}
+
+.gallery-item {
+	text-align: center;
+	line-height: 30px;
+	margin: 20px 0;
+}
+
+.gallery-item .square {
+	background-color: #cc8466;
+	color: #ffffff;
+	width: 97px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+	font-size: 18px;
+	font-family: "MuseoSansRegular";
+	padding-bottom: 5px;
+}
+
+.gallery-item .price {
+	font-family: "MuseoSansBlack"
+}
+
+/*End of apartment prices block*/
+
+
+/*Begin of History slider*/
+
+.construction-history {
+	min-height: 993px;
+	background-image: url(../img/history_small_bgimage.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+
+}
+
+
+/*End of History slider*/

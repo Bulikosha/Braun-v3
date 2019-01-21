@@ -1,0 +1,56 @@
+
+.application {
+	height: 566px;
+	background-color: #cc8466;
+	background-image: url(../img/bg-net.png);
+	text-align: center;
+}
+
+.application h3 {
+	padding-top: 48px;
+	margin-top: 0;
+	position: relative;
+}
+
+.application h3:before {
+	background-color: #cc8466;
+}
+
+form.application-form {
+	margin-top: 60px;
+}
+
+input {
+	display: block;
+	height: 49px;
+	border-radius: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 19px;
+	width: 274px;
+	font-size: 16px;
+}
+
+
+textarea {
+	height: 105px;
+	border-radius: 30px;
+	width: 274px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.application button.application-button {
+	background-color: #000;
+	color: #fff;
+	height: 50px;
+	width: 207px;
+	border-radius: 20px;
+/*	margin-left: auto;
+	margin-right: auto;*/
+	margin-top: 19px;	
+	text-transform: uppercase;
+} 
+
